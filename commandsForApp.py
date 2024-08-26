@@ -1,3 +1,5 @@
+import subprocess as sp
+
 def getDate(text_widget):
     text_widget.delete(1.0, tk.END)
     byteoutput=sp.run(["powershell", "-command", "Get-Date"], capture_output=True)
