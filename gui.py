@@ -6,7 +6,7 @@ from tkinter import Tk, Canvas, Text, Button, PhotoImage
 
 OUTPUT_PATH = Path(__file__).parent
 #change path to where you store assets file
-ASSETS_PATH = OUTPUT_PATH / Path(r"assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"ENTER PATH WEHRE assets FILE IS STORED IN YOUR SYSTEM")
 
 
 def relative_to_assets(path: str) -> Path:
